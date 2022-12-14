@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Venice - Personal Website</title>
+  <link rel="shortcut icon" href="./image/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Scroll Top Button -->
+  <div class="scroll-top">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7l4-4m0 0l4 4m-4-4v18" />
+    </svg>
+  </div>
+  <!-- Navigation -->
+  <section id="navigation">
+    <div class="nav-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </div>
+  </section>
+  <div id="nav-content">
+    <div class="close-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </div>
+    <div class="wrapper">
+      <h2 class="section-heading">Menu</h2>
+      <nav>
+        <ul>
+          <li><a data-text="Home" href="./index.html#hero">Home</a></li>
+          <li><a data-text="About" href="./index.html#about">About</a></li>
+          <li><a data-text="Projects" href="./index.html#projects">Projects</a></li>
+          <li><a data-text="Testimonial" href="./index.html#testimonial">Testimonial</a></li>
+          <li><a data-text="Contact" href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Hero section -->
+  <section id="hero">
+    <div class="container">
+      <div class="left">
+        <p class="subheading">Hi! Welcome to my Website</p>
+        <h2 class="heading">
+          <div class="wrapper"><span>I am Venice</span></div>
+          <div class="wrapper"><span>and Welcome </span></div>
+          <div class="wrapper"><span>to My World!</span></div>
+        </h2>
+        <p class="desc">I am a college student in Adamson University. I am person who loves music and I also like to play different instruments.
+           If you want to know more about me, click the button below. </p>
+        <div class="buttons">
+          <a href="#about" class="primary-btn">See more...</a>
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="right">
+        <img src="Me.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-heading" data-outline="Things About Venice">Things About Venice</h2>
+      <div class="wrapper">
+        <div class="left">
+          <div class="card">
+            <div class="img">
+              <img src="Me 2.jpg" alt="">
+            </div>
+            <p class="card-desc"> My name came from my auntie who wanted to go to Venice, Italy that's why they named it after me.
+			I am currently in a band named "Vindicate" and I have been with them for almost 5 years already. I have a half sister, Francine Crisostmo, and she is already working 
+as a Medical Technologist. 	</p>
+            <h3 class="card-name">"Italy"</h3>
+            <p class="card-sub-title">Venice Pena</p>
+          </div>
+        </div>
+        <div class="right">
+          <p class="subheading">Welcome to all of my viewers!</p>
+          <h2 class="slogan">My Name is Venice Victoria L. Pena</h2>
+          <p class="right-text"> If you're having a hard time calling me by my name, you can call me Nice. I am 18 years old and I am student in Adamson University 
+		  with the course of B.S. Information Technology. My hobbies are playing instruments, creating songs, and stanning KPOP Groups. 
+		  My height is 5'2 and my weight is cute. 
+          </p>
+          <div class="buttons">
+            <a href="./contact.html" class="primary-btn outline">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-heading" data-outline="Achievements">Achievements</h2>
+      <div class="all-items">
+        <div class="item">
+            <div class="img">
+              <video width="500px" height="800px"
+        controls="controls"/>
+         
+        <source src="Vid1.mp4">
+		
+    </video>
+<br>
+            </div>
+          </div>
+          <div class="right">
+            <h2 class="project-title">Battle Of The Bands</h2>
+            <h3 class="project-sub-title">Champion</h3>
+            <p class="project-desc"> When we first joined the competition in our schoool, we didn't get the chance to be tha champion because we lack a lot of things. 
+			It's not bad at all, it was actually fun and memorable. The feeling when we performed on the stage was very exciting but nerve cracking at the same time. When we Joined our second competition, that was the time 
+			when we finally won the Championship</p>
+            <div class="buttons">
+              <a href="#" class="primary-btn">Know More</a>
+              <a href="#" class="primary-btn outline external-link"> <span>Preview</span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+            </div>
+
+          </div>
+        </div>
+        <div class="item">
+          <div class="left">
+            <div class="img">
+              <img src="Pic.jpg" alt="">
+            </div>
+          </div>
+          <div class="right">
+            <h2 class="project-title">Imusikabataan
+            </h2>
+            <h3 class="project-sub-title">2nd Place
+            </h3>
+            <p class="project-desc">Thiss took place in Imus, Cavite. We prepared for this competition but it turns out that they already judged our performance through the video that we sent. 
+			So, we didn't perform live that's why we got 2nd place. It was a bit disappointing but it is fun as well.</p>
+            <div class="buttons">
+              <a href="#" class="primary-btn">Know More</a>
+              <a href="#" class="primary-btn outline external-link"> <span>Preview</span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="left">
+            <div class="img">
+              <img src="grad.jpg" alt="">
+            </div>
+          </div>
+          <div class="right">
+            <h2 class="project-title">Graduation Day!</h2>
+            <h3 class="project-sub-title">With Honors</h3>
+            <p class="project-desc">Finished my Junior and Senior High School with Honors. I am so proud of myself because I survived my academics while being locked down and being far away with my friends.
+I am happy that I made my parents proud because of this achievement. Hugs to myself. </p>
+            <div class="buttons">
+              <a href="#" class="primary-btn">Know More</a>
+              <a href="#" class="primary-btn outline external-link"> <span>Preview</span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <section id="footer">
+    <div class="container">
+      <footer>
+        <div class="col-1">
+          <div class="logo"><a href="#">
+              <img src="friends.jpg" alt="">
+            </a></div>
+          <p>Special Thanks to my friends who helpedme create this website. XOXO.</p>
+        </div>
+        <div class="col-2">
+          <h2 class="column-heading">Important<br>Links</h2>
+          <ul>
+            <li><a href="./index.html#home">Home</a></li>
+            <li><a href="./index.html#about">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./index.html#Project">Project</a></li>
+            <li><a href="./index.html#testimonial">Testimonial</a></li>
+          </ul>
+        </div>
+        <div class="col-3">
+          <h2 class="column-heading">Contact<br>Info</h2>
+          <ul>
+            <li><a href="mail to:venice.victoria.pena@adamson.edu.ph">venice.victoria.pena@adamson.edu.ph</a></li>
+            <li><a href="tel:09562515527">09151270969</a></li>
+            <li><a href="#">General Trias, Cavite, Philippines</a></li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <h2 class="column-heading">Social<br>Links</h2>
+          <ul>
+            <li><a href="https://www.facebook.com/galera.vanrj/">FB</a></li>
+            <li><a href="https://twitter.com/kxmdchyun/">TW</a></li>
+            <li><a href="https://www.instagram.com/galeravanrj/">IG</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </section>
+  <section id="copyright">
+    <div class="container">
+      <p> &copy; Copyright 2022 VMG. All right Reserved</p>
+    </div>
+  </section>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
